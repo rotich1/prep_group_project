@@ -1,0 +1,39 @@
+.landing {
+    text-align: center;
+}
+
+h3 {
+    font-size: 65px;
+    font-family: 'Caveat', cursive;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Carter One', cursive;
+    font-size: 100px;
+    margin: 15vh 0vh 0vh 0vh;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.486);
+}
+
+.start {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    float: right;
+    font-family: cursive;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    margin: 2%;
+    width: 20%;
+    transition: 0.3s;
+}
+
+.start:hover {
+    box-shadow: 0px 0px 3px 5px whitesmoke;
+    font-weight: 700;
+}
