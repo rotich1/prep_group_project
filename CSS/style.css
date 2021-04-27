@@ -61,3 +61,13 @@ border-radius: 0px;
 background-color: white;
 
 }
+#third{
+  position: absolute;
+ height: 94px;
+width: 394px;
+left: 44px;
+top: 266px;
+border-radius: 0px;
+  
+background-color: white;
+}
