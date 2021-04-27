@@ -41,6 +41,28 @@ height: 871px;
 left: 0px;
 top: 75px;
 }
+h1{
+/* height: 18.514286041259766px;
+width: 382px;
+left: 56px;
+top: 47.5771484375px;
+border-radius: nullpx; */
+position: absolute;
+width: 382px;
+height: 18.51px;
+left: 56px;
+top: 0px;
+font-family: Gothic A1;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+
+
+
+}
 #first{
 position: absolute;
 width: 394px;
@@ -70,4 +92,44 @@ top: 266px;
 border-radius: 0px;
   
 background-color: white;
+}
+#fourth{
+  position: absolute;
+  background-color: white;
+height: 94px;
+width: 394px;
+left: 44px;
+top: 382px;
+border-radius: 0px;
+
+}
+#fifth{
+  position: absolute;
+  background-color: white;
+height: 94px;
+width: 394px;
+left: 44px;
+top: 498px;
+border-radius: 0px;
+
+}
+#sixth{
+  background-color: white;
+position: absolute;
+height: 94px;
+width: 394px;
+left: 44px;
+top: 614px;
+border-radius: 0px;
+
+}
+#seventh{
+  background-color: white;
+  position: absolute;
+  height: 94px;
+width: 394px;
+left: 44px;
+top: 730px;
+border-radius: 0px;
+
 }
