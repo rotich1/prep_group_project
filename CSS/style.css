@@ -44,3 +44,32 @@ body {
     bottom: 9vh;
     height: 20vh;
 }
+
+.landing {
+    background-image: url(../Images/Teal_Blue_Circle.png);
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position-x: center;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    text-align: right;
+    margin-left: 5vh;
+    margin-top: 3vh;
+}
+
+.right {
+    float: right;
+    width: 25%;
+    text-align: left;
+    margin-right: 5vh;
+    margin-top: 3vh;
+}
+
+.left>h4, .right>h4 {
+    font-size: 37px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
