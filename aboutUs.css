@@ -1,0 +1,15 @@
+.about{
+    text-align: center;
+}
+
+nav{
+    background-color: beige;
+    overflow: auto;
+}
+
+li{
+    display: inline;
+    padding-left: 2%;
+    float: right;
+    margin: 1.5%;
+}
