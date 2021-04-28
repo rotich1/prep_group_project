@@ -248,3 +248,41 @@ color: #000000;
 
 
 }
+p>proposed{
+  position: absolute;
+width: 169px;
+height: 30px;
+left: 691px;
+top: 536px;
+
+font-family: Gothic A1;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+p>estimate{
+  position: absolute;
+width: 197px;
+height: 30px;
+left: 688px;
+top: 587px;
+
+font-family: Gothic A1;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
