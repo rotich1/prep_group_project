@@ -191,3 +191,60 @@ line-height: 30px;
 
 color: #000000;
 }
+p>contact{
+  position: absolute;
+width: 95px;
+height: 30px;
+left: 694px;
+top: 377px;
+
+font-family: Gothic A1;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+p>location{
+  position: absolute;
+width: 104px;
+height: 30px;
+left: 694px;
+top: 423px;
+
+font-family: Gothic A1;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+p>business{
+  position: absolute;
+width: 104px;
+height: 30px;
+left: 694px;
+top: 423px;
+
+font-family: Gothic A1;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
