@@ -15,7 +15,7 @@ li{
 }
 
 #kiptooimage{
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: 15%;
     width: 200px;
     border-radius: 50%;
@@ -41,7 +41,7 @@ li{
   #ronaldimage{
       margin-left: 60%;
       border-radius: 50%;
-      margin-bottom: 3%;
+      margin-bottom: 0.5%;
 
   }
 
@@ -52,5 +52,12 @@ li{
 
   #ronaldp{
       margin-left: 55%;
-      margin-bottom: 20%;
+      margin-bottom: 2%;
   }
+
+  #muriithi{
+    margin-left: 15%;
+    width: 200px;
+    border-radius: 50%;
+    }
+ 
