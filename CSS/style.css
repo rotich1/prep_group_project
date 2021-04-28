@@ -286,3 +286,26 @@ color: #000000;
 
 
 }
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #0000FF;}
+
+.interest {color: black;
+margin-left: 40px;}
+
+/* background: #0000FF;
+height: 48px;
+width: 214px;
+left: 810px;
+top: 649px;
+border-radius: 0px; */
+
+}
