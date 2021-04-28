@@ -28,6 +28,7 @@ li{
 }
 #kiptoo{
     margin-left: 6%;
+    display: none;
 }
 .Vertical{
     border-left: 1px solid black;
@@ -81,4 +82,9 @@ li{
     #victorp{
         margin-left: 55%;
     }
+
+.motto{
+    text-align: center;
+    padding-top: 3%;
+}
  
