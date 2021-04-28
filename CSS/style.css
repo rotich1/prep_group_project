@@ -60,8 +60,21 @@ line-height: 30px;
 
 color: #000000;
 
-
-
+}
+h2{
+  position: absolute;
+height: 18.514286041259766px;
+width: 280px;
+left: 56px;
+top: 20%;
+border-radius: nullpx;
+font-family: Gothic A1;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
 }
 #first{
 position: absolute;
@@ -132,4 +145,49 @@ left: 44px;
 top: 730px;
 border-radius: 0px;
 
+}
+.sec{
+  position: absolute;
+width: 527px;
+height: 473px;
+left: 634px;
+top: 242px;
+
+background: #F5F5F5;
+  
+
+}
+p>name{
+  position: absolute;
+  height: 30px;
+width: 115px;
+left: 694px;
+top: 285px;
+border-radius: nullpx;
+font-family: Gothic A1;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+p>email{
+  position: absolute;
+width: 164px;
+height: 30px;
+left: 694px;
+top: 331px;
+
+font-family: Gothic A1;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
 }
