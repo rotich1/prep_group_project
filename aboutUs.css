@@ -1,0 +1,123 @@
+.about {
+    text-align: center;
+}
+
+nav {
+    background-color: beige;
+    overflow: auto;
+}
+
+li {
+    display: inline;
+    padding-left: 2%;
+    float: right;
+    margin: 1.5%;
+}
+
+#kiptooimage {
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.kiptoo {
+    margin-left: 17%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#kiptoo {
+    margin-left: 6%;
+    display: none;
+}
+
+.Vertical {
+    border-left: 1px solid black;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 10%;
+}
+
+#ronaldimage {
+    margin-left: 60%;
+    border-radius: 50%;
+    margin-bottom: 0.5%;
+}
+
+.ronald {
+    margin-left: 63%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#ronaldp {
+    margin-left: 55%;
+    margin-bottom: 2%;
+}
+
+#muriithi {
+    margin-left: 15%;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.muriithi {
+    margin-left: 17%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#muriithip {
+    margin-left: 7%;
+}
+
+#victor {
+    margin-left: 60%;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.victor {
+    margin-left: 63%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#victorp {
+    margin-left: 55%;
+}
+
+.motto {
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+#navigationBar {
+    background-color: #F5F5DC;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+#navigationBar>ul {
+    list-style: none;
+    display: flex;
+    top: 0px;
+    width: 28%;
+    float: right;
+}
+
+#navigationBar>ul>li {
+    padding: 10px 20px 10px 0px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#navigationBar>ul>li:hover {
+    text-decoration: underline;
+    color: darkblue
+}
