@@ -13,3 +13,16 @@ li{
     float: right;
     margin: 1.5%;
 }
+
+#kiptoo{
+    padding-top: 3%;
+    margin-left: 3%;
+}
+.Vertical{
+    border-left: 6px solid black;
+    height:400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
