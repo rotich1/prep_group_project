@@ -13,8 +13,9 @@
 
 <div id="navigationBar">
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="victor.html">Profile/Timeline</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="victor.html">Profile</a></li>
+        <!-- <li onclick="timeline()">Timelines</li> -->
         <li><a href="aboutUs.html">About US</a></li>
     </ul>
 </div>
@@ -99,17 +100,17 @@
                 <h1><b>Business Category: </b><span id="category"></span></h1>
                 <h2><b>Idea: </b><span id="idea"></span></h2>
             </div>
+
             <div class="sec">
-                <p id="name"><b>Full name:</b><span class="displayName"></span></p>
-                <p id="email"><b>Email Address:</b><span class="displayEmail"></span></p>
-                <p id="contact"><b>Contact</b><span class="dispalyContact"></span></p>
-                <p id="location"><b>Location</b><span class="displayLocation"></span></p>
-                <p id="business"><b>Business category</b><span class="displayCategory"></span></p>
-                <p id="proposed"><b>Proposed idea</b><span class="displayIdea"></span></p>
-                <p id="estimate"><b>Estimated budget</b><span id="displayBudget"></span></p>
+                <p id="name"><b>Full name:</b><span class=" displayName"></span></p>
+                <p id="email"><b>Email Address:</b><span class=" displayEmail"></span></p>
+                <p id="contact"><b>Contact</b><span class=" dispalyContact"></span></p>
+                <p id="location"><b>Location</b><span class=" displayLocation"></span></p>
+                <p id="business"><b>Business category</b><span class=" displayCategory"></span></p>
+                <p id="proposed"><b>Proposed idea</b><span class=" displayIdea"></span></p>
+                <p id="estimate"><b>Estimated budget</b><span id=" displayBudget"></span></p>
 
-                <button class="btn interest">Show Interest</button>
-
+                <button class="btn interest"><a href="mailto:rotichenoch27@gmail.com?subject=The brillint business idea">Connect</a></button>
             </div>
 
         </div>
@@ -118,6 +119,7 @@
     </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="JS/victor.js"></script>
 
 </html>

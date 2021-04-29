@@ -48,7 +48,6 @@ body {
     color: darkblue
 }
 
-
 /* ///// inputs /////*/
 
 input:focus~label, textarea:focus~label, input:valid~label, textarea:valid~label {
@@ -65,6 +64,10 @@ input:focus~label, textarea:focus~label, input:valid~label, textarea:valid~label
     margin: 1rem 0;
     position: relative;
     border-radius: 4px;
+}
+
+.styled-input>label {
+    font-size: 22px;
 }
 
 .category {
@@ -97,7 +100,7 @@ input:focus~label, textarea:focus~label, input:valid~label, textarea:valid~label
 }
 
 input, textarea {
-    padding: 30px;
+    padding: 25px;
     border: 0;
     width: 100%;
     font-size: 1rem;
@@ -357,7 +360,7 @@ p>name {
     top: 285px;
     border-radius: nullpx;
     font-family: Gothic A1;
-    font-size: 24px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
@@ -374,7 +377,7 @@ p>email {
     font-family: Gothic A1;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 30px;
     /* identical to box height */
     color: #000000;
@@ -471,10 +474,39 @@ p>estimate {
 }
 
 .interest {
-    color: black;
-    height: 48px;
-    width: 214px;
-    margin-left: 40px;
+    height: 58px;
+    width: 40%;
+    text-align: center;
+    margin-left: 25%;
+    background-color: blue;
+    transform: 0.3s;
+}
+
+.interest>a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.interest>a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.interest:hover {
+    height: 58px;
+    width: 40%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 25%;
+    background-color: #5cb85c;
+}
+
+.mastermind {
+    clear: both;
+    text-align: center;
 }
 
 .footer {

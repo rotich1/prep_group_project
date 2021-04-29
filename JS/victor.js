@@ -5,6 +5,24 @@ $(document).ready(function () {
 });
 
 
+// function mail() {
+//     let firstName = document.getElementById("fname").value;
+//     // let lastName = document.getElementById("lname").value;
+//     let email = document.getElementById("email").value;
+//     let idea = document.getElementById("idea").value;
+//     Email.send({
+//         Host: "rotichenoch27@gmail.com",
+//         Username: "rotichenoch27@gmail.com",
+//         Password: "Softonnique27",
+//         To: 'thesoftonic27@gmail.com',
+//         From: "rotichenoch27@gmail.com",
+//         Subject: "Subjects",
+//         Body: "<email body>",
+//     }).then(
+//         message => alert("mail sent successfully")
+//     );
+// }
+
 function submitedData() {
     let firstName = document.getElementById("fname").value;
     let lastName = document.getElementById("lname").value;
@@ -40,7 +58,7 @@ function submitedData() {
     }
 
     if (details.first == "" || details.last == "" || details.email == "" || details.phone == "" || details.location == "" || details.budget == "") {
-        alert("Name missing")
+        alert("Kindly provide all the required details.")
     } else {
         $("div.one").show()
         $("div.pitch").hide()
