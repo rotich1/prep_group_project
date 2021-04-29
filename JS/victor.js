@@ -75,7 +75,7 @@ function submitedData() {
                 $("span.displayLocation").text(details.location);
                 $("span.displayLocation").text(ideas.category);
                 $("span.displayIdea").text(ideas.idea);
-                $("span.displayBudget").text(budget);
+                $("span#displayBudget").text("Kshs. " + details.budget);
             });
         });
     }
