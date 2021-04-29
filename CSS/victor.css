@@ -23,9 +23,12 @@ body {
 }
 
 #navigationBar {
-    background-color: #F5F5DC;
+    background-color: rgba(245, 245, 220, 1);
+    overflow: hidden;
+    position: absolute;
     width: 100%;
-    position: fixed;
+    height: 78px;
+    left: 0%;
     top: 0px;
 }
 
@@ -35,12 +38,18 @@ body {
     top: 0px;
     width: 25%;
     float: right;
+    text-decoration: none;
 }
 
 #navigationBar>ul>li {
     padding: 10px 20px 10px 0px;
     font-size: 23px;
+    text-decoration: none;
     font-weight: 500;
+}
+
+.active {
+    color: #4CAF50;
 }
 
 #navigationBar>ul>li:hover {
